@@ -12,8 +12,10 @@ function Emote_Message(message)
 end
 
 function events:PLAYER_DEAD(...)
+	if Killstreak > 0 then
+		DEFAULT_CHAT_FRAME:AddMessage("You have died and your killstreak has been reset to 0!")
+	end
 	Killstreak = 0;
-	DEFAULT_CHAT_FRAME:AddMessage("You have died and your killstreak has been reset to 0!")
 end
 
 function events:COMBAT_LOG_EVENT_UNFILTERED(...)
