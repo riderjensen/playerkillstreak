@@ -64,21 +64,22 @@ local PKSSounds_Halo = {
 }
 
 -- https://dota2.fandom.com/wiki/Bastion_Announcer_Pack
+-- Voice lines are out of order because this announcer uses specific numbers
 local PKSSounds_Bastion = {
 	{"b_fb_01.mp3", "b_fb_02.mp3", "b_fb_03.mp3"}, -- Single
 	{"b_double_01.mp3"}, -- Double
 	{"b_triple_01.mp3"}, -- Triple
-	{"b_ks_01.mp3", "b_ks_02.mp3", "b_ks_03.mp3"}, -- Killing spree
-	{"b_dom_01.mp3"}, -- Dominating
-	{"b_ultra_01.mp3"}, -- Ultra
+	{"b_ultra_01.mp3", "b_dom_01.mp3"}, -- Ultra and dominating
 	{"b_mega_01.mp3"}, -- Mega
-	{"b_rampage_01.mp3"}, -- Rampage
 	{"b_unstoppable_01.mp3"}, -- Unstoppable
 	{"b_ws_01.mp3"}, -- Wicked sick
 	{"b_mk_01.mp3"}, -- Monster
 	{"b_godlike_01.mp3"}, -- Godlike
-	{"b_holy_01.mp3", "b_holy_02.mp3", "b_holy_03.mp3", "b_holy_05.mp3", "b_holy_04.mp3", "b_holy_06.mp3", "b_holy_07.mp3", "b_holy_08.mp3", "b_holy_09.mp3", "b_holy_10.mp3"}, -- Beyond godlike
-	{"b_ownage_01.mp3"} -- Ownage
+	{"b_rampage_01.mp3"}, -- Rampage
+	{"b_ownage_01.mp3"}, -- Ownage
+	{"b_ks_01.mp3"}, -- Extra killing spree to cover for ultra and double being the same voice
+	{"b_ks_02.mp3", "b_ks_03.mp3"}, -- Killing spree
+	{"b_holy_01.mp3", "b_holy_02.mp3", "b_holy_03.mp3", "b_holy_05.mp3", "b_holy_04.mp3", "b_holy_06.mp3", "b_holy_07.mp3", "b_holy_08.mp3", "b_holy_09.mp3", "b_holy_10.mp3"} -- Beyond godlike
 }
 
 local PKSoundPathNoExt = "Interface\\AddOns\\PlayerKillstreak\\Sounds\\%s"
