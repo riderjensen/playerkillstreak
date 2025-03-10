@@ -3,6 +3,6 @@
 ## Title: PlayerKillstreak
 ## Version: 2025-03-05
 ## Notes: Emotes your current killstreak, resets when you die
-## SavedVariables: Killstreak
+## SavedVariables: KillstreakSettings
 
 PlayerKillstreak.lua
